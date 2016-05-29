@@ -26,7 +26,7 @@ public class CheckFaceBook {
 	
 	
 	//FaceBookLoginIN.Execute(driver, Constant.FaceBook_UserName, Constant.FaceBook_PassWord);
-	FaceBookLoginIN.Execute(driver, "ebenezer.software.tester@gmail.com", "preludE123");
+	FaceBookLoginIN.Execute(driver, "username.com", "paasword");
 	
 	FaceBook.Nav_ToMainDashBoard.ResetStepCounter();
 	
