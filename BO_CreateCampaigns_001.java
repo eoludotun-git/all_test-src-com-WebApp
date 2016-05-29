@@ -75,7 +75,7 @@ public class BO_CreateCampaigns_001 {
 		
 		CampaignsPage.Nav_CampaignsPage.Type_Campaigns_LinkURL(driver).sendKeys("http://google.com");
 		
-		CampaignsPage.Nav_CampaignsPage.Type_Campaigns_ImageURL(driver).sendKeys("http://mangomaniafl.net/wp-content/uploads/2014/06/iStock_000012591574Medium.jpg");
+		CampaignsPage.Nav_CampaignsPage.Type_Campaigns_ImageURL(driver).sendKeys("http:591574Medium.jpg");
 		
 		CampaignsPage.Nav_CampaignsPage.Type_Campaigns_Details(driver).sendKeys("Micheal is real great Automation Engineer");
 		
