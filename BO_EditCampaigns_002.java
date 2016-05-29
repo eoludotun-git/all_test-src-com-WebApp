@@ -32,7 +32,7 @@ public class BO_EditCampaigns_002 {
 	Screenshot.Take_Screenshot(driver, Constant.Screenshot, "Campa _ ");
 	
 	//Edit Campaigns
-	CampaignsPage.CompareAndVerify("https://t3dev.cloudapp.net/Dashboard/BrandOwnerDashboard",
+	CampaignsPage.CompareAndVerify("https://rDashboard",
 			driver.getCurrentUrl());
 	
 	CampaignsPage.Nav_CampaignsPage.ClickCampaigns(driver).click();
@@ -45,7 +45,7 @@ public class BO_EditCampaigns_002 {
 	
 	CampaignsPage.Nav_CampaignsPage.Type_Campaign_Title(driver).clear();
 	
-	CampaignsPage.Nav_CampaignsPage.Type_Campaign_Title(driver).sendKeys("Michael Rules!");
+	CampaignsPage.Nav_CampaignsPage.Type_Campaign_Title(driver).sendKeys("M Rules!");
 	
 	Screenshot.Take_Screenshot(driver, Constant.Screenshot, "Campai _ ");
 	
